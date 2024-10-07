@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">home</a>
+        <a href="about.html">about</a>
+        <button id="loginBtn">Login</button>
+      </nav>
+    </header>
+    <div class="hero">
+      <h1>The Animated Blog</h1>
+    </div>
+    <div class="boxes">
+      <div class="content-box">
+        <h2>Title 1</h2>
+        <p>
+          This is some content for box 1. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Ex, quos. Consectetur reiciendis provident enim!
+          Velit cum excepturi nesciunt sed, facilis qui accusamus inventore modi
+          eius aliquid dolores esse rem obcaecati?
+        </p>
+      </div>
+      <div class="content-box">
+        <h2>Title 2</h2>
+        <p>
+          This is some content for box 2. Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit. Natus consectetur atque ipsam mollitia
+          maiores minima sequi, facilis, eum alias exercitationem dicta
+          obcaecati dignissimos, rem beatae quia at vel perferendis ex!
+        </p>
+      </div>
+      <div class="content-box">
+        <h2>Title 3</h2>
+        <p>
+          This is some content for box 3. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Ipsam modi ea soluta ab illum? Nihil tempore nobis
+          animi tempora eligendi sequi totam optio earum voluptate. Vitae ipsa
+          delectus autem eaque.
+        </p>
+      </div>
+      <div class="catergories">
+        <h2>Catergories</h2>
+        <a href="#">anime</a>
+        <a href="#">art</a>
+        <a href="#">books</a>
+        <a href="#">cartoons</a>
+        <a href="#">events</a>
+        <a href="#">figures</a>
+        <a href="#">film</a>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="loginModal" class="modal">
+      <div class="modal-content">
+        <span class="close">X</span>
+        <h2>Login</h2>
+        <form id="loginForm">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required />
+          <label for="password">Password:</label>
+          <input type="text" id="password" name="password" required />
+          <button type="submit">Login</button>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <p>&copy; 2024 Company Name. All rights reserved.</p>
+    </footer>
+    <script src="lib/jquery-3.7.1.min.js"></script>
+    <script type="module" src="model/model.js"></script>
+    <script type="module" src="app/app.js"></script>
+  </body>
+</html>
